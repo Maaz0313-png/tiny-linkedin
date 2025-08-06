@@ -10,7 +10,7 @@
         { "src": "/build/(.*)", "dest": "/public/build/$1" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
-    "buildCommand": "npm install && npm run build",
+    "buildCommand": "composer install --no-dev && npm install && npm run vercel-build",
     "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
@@ -19,14 +19,13 @@
         "APP_KEY": "base64:mjoa4MK6KOM3TugjvjAUgTUYdJvwkp2ytFt5wTRD5X8=",
         "CACHE_DRIVER": "array",
         "SESSION_DRIVER": "cookie",
-        "SESSION_DOMAIN":".vercel.app",
+        "SESSION_DOMAIN": ".vercel.app",
         "QUEUE_CONNECTION": "sync",
         "DB_CONNECTION": "sqlite",
         "DB_DATABASE": "/var/task/database/database.sqlite",
         "LOG_CHANNEL": "stderr",
         "VIEW_COMPILED_PATH": "/tmp",
         "APP_CONFIG_CACHE": "/tmp/config.php",
-        "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_ROUTES_CACHE": "/tmp/routes.php",
         "APP_SERVICES_CACHE": "/tmp/services.php"
     }

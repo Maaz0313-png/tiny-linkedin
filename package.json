@@ -5,7 +5,8 @@
     "scripts": {
         "build": "vite build",
         "dev": "vite",
-        "con": "concurrently \"npm run dev\" \"php artisan serve\""
+        "con": "concurrently \"npm run dev\" \"php artisan serve\"",
+        "vercel-build": "mkdir -p bootstrap/cache && php artisan config:cache && npm run build"
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",
