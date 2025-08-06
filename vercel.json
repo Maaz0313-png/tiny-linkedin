@@ -22,6 +22,7 @@
         "SESSION_DOMAIN":".vercel.app",
         "QUEUE_CONNECTION": "sync",
         "DB_CONNECTION": "sqlite",
+        "DB_DATABASE": "/var/task/database/database.sqlite",
         "LOG_CHANNEL": "stderr",
         "VIEW_COMPILED_PATH": "/tmp",
         "APP_CONFIG_CACHE": "/tmp/config.php",
