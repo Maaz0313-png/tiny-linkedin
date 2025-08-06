@@ -16,7 +16,7 @@
         "APP_ENV": "production",
         "APP_DEBUG": "false",
         "APP_URL": "https://tiny-linkedin.vercel.app",
-        "APP_KEY": "base64:…",
+        "APP_KEY": "base64:mjoa4MK6KOM3TugjvjAUgTUYdJvwkp2ytFt5wTRD5X8=",
         "CACHE_DRIVER": "array",
         "SESSION_DRIVER": "cookie",
         "DB_CONNECTION": "sqlite",
