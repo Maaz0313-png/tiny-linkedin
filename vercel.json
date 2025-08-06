@@ -10,7 +10,7 @@
         { "src": "/build/(.*)", "dest": "/public/build/$1" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
-    "buildCommand": "composer install --no-dev && npm install && npm run vercel-build",
+    "buildCommand": "npm install && npm run vercel-build",
     "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
