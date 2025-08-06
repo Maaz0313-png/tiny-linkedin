@@ -13,7 +13,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::AF1MxosYeXcm6WBn',
+            '_route' => 'generated::vz5J3fnkdFKbjvBd',
           ),
           1 => NULL,
           2 => 
@@ -70,7 +70,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::Rxdv3ZZ7KzxZaUCm',
+            '_route' => 'generated::bShORnoxEQkkcXvI',
           ),
           1 => NULL,
           2 => 
@@ -106,7 +106,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::cuaLNPJxdo5JoLzj',
+            '_route' => 'generated::JbIxOUtVWJsYKjNO',
           ),
           1 => NULL,
           2 => 
@@ -219,7 +219,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::M3XxNZKH0jG6miej',
+            '_route' => 'generated::xpX0r5tPqTW0LnCg',
           ),
           1 => NULL,
           2 => 
@@ -365,7 +365,7 @@ app('router')->setCompiledRoutes(
   ),
   'attributes' => 
   array (
-    'generated::AF1MxosYeXcm6WBn' => 
+    'generated::vz5J3fnkdFKbjvBd' => 
     array (
       'methods' => 
       array (
@@ -393,8 +393,8 @@ app('router')->setCompiledRoutes(
                     return response(\\Illuminate\\Support\\Facades\\View::file(\'C:\\\\laragon\\\\www\\\\tiny-linkedin\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Configuration\'.\'/../resources/health-up.blade.php\', [
                         \'exception\' => $exception,
                     ]), status: $exception ? 500 : 200);
-                }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"000000000000051e0000000000000000";}}',
-        'as' => 'generated::AF1MxosYeXcm6WBn',
+                }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"00000000000004e80000000000000000";}}',
+        'as' => 'generated::vz5J3fnkdFKbjvBd',
       ),
       'fallback' => false,
       'defaults' => 
@@ -484,7 +484,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::Rxdv3ZZ7KzxZaUCm' => 
+    'generated::bShORnoxEQkkcXvI' => 
     array (
       'methods' => 
       array (
@@ -504,7 +504,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::Rxdv3ZZ7KzxZaUCm',
+        'as' => 'generated::bShORnoxEQkkcXvI',
       ),
       'fallback' => false,
       'defaults' => 
@@ -558,7 +558,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::cuaLNPJxdo5JoLzj' => 
+    'generated::JbIxOUtVWJsYKjNO' => 
     array (
       'methods' => 
       array (
@@ -578,7 +578,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::cuaLNPJxdo5JoLzj',
+        'as' => 'generated::JbIxOUtVWJsYKjNO',
       ),
       'fallback' => false,
       'defaults' => 
@@ -647,7 +647,7 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:56:"function () {
     return \\inertia(\'Auth/VerifyEmail\');
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000005280000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004f20000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
@@ -688,7 +688,7 @@ app('router')->setCompiledRoutes(
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:181:"function (\\Illuminate\\Foundation\\Auth\\EmailVerificationRequest $request) {
     $request->fulfill();
     return \\redirect(to: \'/\')->with(\'status\', \'Your email has been verified.\');
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000000000052a0000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004f40000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
@@ -728,7 +728,7 @@ app('router')->setCompiledRoutes(
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:169:"function (\\Illuminate\\Http\\Request $request) {
     $request->user()->sendEmailVerificationNotification();
     return \\back()->with(\'status\', \'verification-link-sent\');
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"000000000000052c0000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000004f60000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
@@ -903,7 +903,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::M3XxNZKH0jG6miej' => 
+    'generated::xpX0r5tPqTW0LnCg' => 
     array (
       'methods' => 
       array (
@@ -925,7 +925,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::M3XxNZKH0jG6miej',
+        'as' => 'generated::xpX0r5tPqTW0LnCg',
       ),
       'fallback' => false,
       'defaults' => 
@@ -994,7 +994,7 @@ app('router')->setCompiledRoutes(
                         $config,
                         $isProduction
                     ))($request, $path);
-                }";s:5:"scope";s:47:"Illuminate\\Filesystem\\FilesystemServiceProvider";s:4:"this";N;s:4:"self";s:32:"000000000000052f0000000000000000";}}',
+                }";s:5:"scope";s:47:"Illuminate\\Filesystem\\FilesystemServiceProvider";s:4:"this";N;s:4:"self";s:32:"00000000000004f90000000000000000";}}',
         'as' => 'storage.local',
       ),
       'fallback' => false,
